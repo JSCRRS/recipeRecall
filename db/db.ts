@@ -8,7 +8,7 @@ db.run(`
     name TEXT NOT NULL,
     category TEXT NOT NULL,
     ingredients TEXT NOT NULL,
-    description TEXT NOT NULL,
+    description TEXT NOT NULL
     );
 `);
 
