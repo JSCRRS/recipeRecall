@@ -1,7 +1,8 @@
 import { Elysia } from "elysia";
+import { recipesRoutes } from "./routes/recipes";
 
 const app = new Elysia()
-    .get("/", () => "Hello Elysia")
+    .use(recipesRoutes)
     .listen(3000);
 
 console.log(
